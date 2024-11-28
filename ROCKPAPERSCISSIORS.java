@@ -29,6 +29,7 @@ class Game {
         String info_text = "Rock, Paper, Scissors!  This game is fairly simple.\nSimply pick your hands whenever you are ready.\nRock beats scissors, scissors beat paper\nand paper wrap the rock. Yes paper beats rock.";
         JOptionPane.showMessageDialog(null, info_text, "How to play!", 1);
     }
+    // changed
 
     public static void panel_game() {
         JFrame frame_main = new JFrame("Rock, Scissors, Paper");
